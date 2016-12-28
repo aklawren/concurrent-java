@@ -1,9 +1,9 @@
 #General
 This shows the difference in performance between synchronous execution, blocking futures, and callback-style completable futures.
-_The main benefits between the two types of futures are noticed when there are several calls made to the same method since a future will still ultimately need to block at some point, but a completable future will release control until it's async tasks have finished accordingly.
+_The main benefits between the two types of futures are noticed when there are several calls made to the same method since a future will still ultimately need to block at some point, but a completable future will release control until it's async tasks have finished accordingly._
 
 #To build
-mvn install
+```mvn install```
 
 #To run
 ```cd target```
