@@ -3,11 +3,11 @@ This shows the difference in performance between synchronous execution, blocking
 _The main benefits between the two types of futures are noticed when there are several calls made to the same method since a future will still ultimately need to block at some point, but a completable future will release control until it's async tasks have finished accordingly._
 
 #To build
-```mvn install```
+`mvn install`
 
 #To run
-```cd target```
-```java -cp AsyncRunner-1.jar com.alissa.Application```
+`cd target`
+`java -cp AsyncRunner-1.jar com.alissa.Application`
 
 ### Notes
    * runnable / callable:
